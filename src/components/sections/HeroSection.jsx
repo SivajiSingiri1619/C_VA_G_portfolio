@@ -79,7 +79,7 @@ export default function HeroSection() {
               variants={fadeInUp}
               className="flex flex-wrap gap-4 mb-8"
             >
-              <Button variant="primary" href="/resume.pdf" icon={<FiDownload />}>
+              <Button variant="primary" href={`${import.meta.env.BASE_URL}resume.pdf`} icon={<FiDownload />}>
                 Download Resume
               </Button>
               <Button
@@ -146,7 +146,7 @@ export default function HeroSection() {
               <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-[22rem] lg:h-[22rem] rounded-full overflow-hidden shadow-elevated ring-4 ring-white/50"
                    style={{ animation: "glow-pulse 4s ease-in-out infinite" }}>
                 <img
-                  src="/images/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                   alt="Singiri Sivaji — Full Stack Developer"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: "center 20%", transform: "scale(1.3)" }}

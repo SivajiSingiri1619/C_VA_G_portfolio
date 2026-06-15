@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/sivaji-portfolio/',
+  base: '/C_VA_G_portfolio/',
 })

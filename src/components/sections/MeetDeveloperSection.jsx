@@ -53,7 +53,7 @@ export default function MeetDeveloperSection() {
 
               <div className="relative w-72 h-80 md:w-80 md:h-96 rounded-3xl overflow-hidden shadow-elevated ring-4 ring-white/50">
                 <img
-                  src="/images/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                   alt="Singiri Sivaji — MERN Stack Developer"
                   className="w-full h-full object-cover object-top"
                   loading="lazy"

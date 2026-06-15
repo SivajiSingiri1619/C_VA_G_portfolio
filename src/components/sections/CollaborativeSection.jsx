@@ -24,7 +24,7 @@ export default function CollaborativeSection() {
               <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-accent-blue/10 to-[#7B61FF]/10 blur-sm" />
               <div className="relative rounded-2xl overflow-hidden shadow-elevated ring-4 ring-white/50">
                 <img
-                  src="/images/team.jpg"
+                  src={`${import.meta.env.BASE_URL}images/team.jpg`}
                   alt="Singiri Sivaji working with his team at Technical Hub"
                   className="w-full h-auto object-cover"
                   loading="lazy"
