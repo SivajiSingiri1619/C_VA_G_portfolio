@@ -120,7 +120,7 @@ export default function HeroSection() {
                 <FaLinkedinIn size={18} />
               </a>
               <a
-                href="mailto:sivaji@example.com"
+                href="mailto:singirisivaji@gmail.com"
                 aria-label="Email"
                 className="w-10 h-10 rounded-xl bg-white shadow-soft flex items-center justify-center text-text-secondary hover:text-accent-blue hover:shadow-medium transition-all duration-200"
               >
