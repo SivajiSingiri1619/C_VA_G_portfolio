@@ -99,7 +99,7 @@ export default function ContactSection() {
               say hello — I'd love to hear from you.
             </p>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:singirisivaji@gmail.com"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl text-base font-semibold bg-gradient-to-r from-accent-blue to-[#7B61FF] text-white shadow-lg hover:shadow-xl hover:shadow-accent-blue/25 transition-all duration-300 group"
             >
               Send Me a Message
