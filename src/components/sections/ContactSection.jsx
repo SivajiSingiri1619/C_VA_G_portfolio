@@ -9,7 +9,7 @@ const contactMethods = [
   {
     icon: <HiMail size={24} />,
     label: "Email",
-    value: "sivaji@example.com",
+    value: "singirisivaji@example.com",
     href: "mailto:singirisivaji@gmail.com",
     color: "#4F8CFF",
     bgColor: "#F5F9FF",
